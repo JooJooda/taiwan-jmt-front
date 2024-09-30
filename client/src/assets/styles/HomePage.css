@@ -1,0 +1,11 @@
+.title-area{
+    font-size: 1.4rem;
+}
+
+.swiper-pagination-bullet {
+    background-color: white!important;
+  }
+  
+.swiper-pagination-bullet-active {
+    background: white!important;
+}

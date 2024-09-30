@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=Jua&family=Young+Serif&display=swap');
+*{
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:480px){
+    html{
+        font-size: 10px;
+    }
+    .navbar{
+        height:35px;
+    }
+    .HomePageBanner,.title-area,.Box{
+        margin-top: 35px;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:576px){
+    html{
+        font-size: 12px;
+    }
+    .navbar{
+        height:35px;
+    }
+    .HomePageBanner,.title-area,.Box{
+        margin-top: 35px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    html{
+        font-size: 14px;
+    }
+    .navbar{
+        height:45px;
+    }
+    .HomePageBanner,.title-area,.Box{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    html{
+        font-size: 16px;
+    }
+    .navbar{
+        height:56px;
+    }
+    .HomePageBanner,.title-area,.Box{
+        margin-top: 56px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    html{
+        font-size: 18px;
+    }
+    .navbar{
+        height:56px;
+    }
+    .HomePageBanner,.title-area,.Box{
+        margin-top: 56px;
+    }
+}
